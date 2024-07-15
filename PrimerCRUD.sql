@@ -9,11 +9,9 @@ CREATE TABLE animales(
      PRIMARY KEY (id)
 );
 ALTER TABLE animales MODIFY COLUMN id int auto_increment;
-
 -- INSERT INTO animales (tipo, estado) VALUES('chanchito', 'feliz');
 -- Para comentar se usa doble guión seguido
 SHOW CREATE TABLE animales;
-
 CREATE TABLE `animales` (
   `id` int NOT NULL AUTO_INCREMENT,
   `tipo` varchar(255) DEFAULT NULL,
